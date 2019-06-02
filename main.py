@@ -20,3 +20,5 @@ def handle_my_custom_event(json, methods=['GET','POST']):
 
 if __name__ == "__main__":
     socketio.run(app, debug=True)
+
+ # This is True
